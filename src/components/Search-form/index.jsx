@@ -142,51 +142,6 @@ export default function searchForm() {
           </Card>
         </Col>
       </Row>
-
-      <Row>
-        {/* <Col className="mb-2">
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                Dates
-              </Card.Title>
-              <Form.Group className="mb-2">
-                <Form.Label htmlFor="flight-type-select">
-                  Flight
-                </Form.Label>
-                <Form.Select id="flight-type-select">
-                  <option value="one-way">One-way</option>
-                  <option value="round-trip">Round-trip</option>
-                </Form.Select>
-              </Form.Group>
-
-              <Form.Group className="mb-2">
-                <Form.Label htmlFor="departure-date-input">
-                  Departure date
-                </Form.Label>
-                <InputGroup>
-                  <InputGroup.Text>
-                    <Calendar />
-                  </InputGroup.Text>
-                  <Form.Control id="departure-date-input" type="date" />
-                </InputGroup>
-              </Form.Group>
-
-              <Form.Group className="mb-2">
-                <Form.Label htmlFor="return-date-input">
-                  Return date
-                </Form.Label>
-                <InputGroup>
-                  <InputGroup.Text>
-                    <CalendarFill />
-                  </InputGroup.Text>
-                  <Form.Control id="return-date-input" type="date" />
-                </InputGroup>
-              </Form.Group>
-            </Card.Body>
-          </Card>
-        </Col> */}
-      </Row>
       <Button className="w-100" type="submit">
         Search
       </Button>
