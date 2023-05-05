@@ -4,7 +4,7 @@ import SearchForm from './components/Search-form';
 
 function App() {
   return (
-    <main className="container-sm">
+    <main className="container py-3">
       <h1>Flight search form</h1>
       <SearchForm />
     </main>
