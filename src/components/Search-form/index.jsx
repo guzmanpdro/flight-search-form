@@ -20,7 +20,7 @@ export default function searchForm() {
             Locations
           </Card.Title>
           <Row>
-            <Col>
+            <Col md={6}>
               <Form.Group className="mb-2">
                 <Form.Label htmlFor="origin">
                   Origin
@@ -33,7 +33,7 @@ export default function searchForm() {
                 </InputGroup>
               </Form.Group>
             </Col>
-            <Col>
+            <Col md={6}>
               <Form.Group className="mb-2">
                 <Form.Label htmlFor="destination">
                   Destination
@@ -51,7 +51,7 @@ export default function searchForm() {
       </Card>
 
       <Row>
-        <Col sm>
+        <Col md={6}>
           <Card className="mb-2">
             <Card.Body>
               <Card.Title>
@@ -93,7 +93,7 @@ export default function searchForm() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm>
+        <Col md={6}>
           <Card className="mb-2">
             <Card.Body>
               <Card.Title>
@@ -142,9 +142,13 @@ export default function searchForm() {
           </Card>
         </Col>
       </Row>
-      <Button className="w-100" type="submit">
-        Search
-      </Button>
+      <Row className='justify-content-center'>
+        <Col md={6}>
+          <Button className="w-100" type="submit">
+            Search
+          </Button>
+        </Col>
+      </Row>
     </Form>
   )
 }
